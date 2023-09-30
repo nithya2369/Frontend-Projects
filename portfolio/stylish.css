@@ -1,0 +1,86 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+header{
+    background-image:url("image/pic-18.jpeg");
+    height:100vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.main{
+    max-width: 1100px;
+    margin:auto;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+ul li{
+    display:inline-block;
+    border:1px solid transparent;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding:5px;
+    margin: 10px 20px;
+    font-weight: bold;
+}
+ul li a:hover{
+    background-color: white;
+    color:black;
+    transition:0.6s ease;
+}
+.active{
+    background-color: white;
+    color:black;
+}
+.logo img{
+    margin-top: 25px;
+}
+.detel{
+    margin-top: 8%;
+    margin-left: 12%;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+p{
+    color: white;
+}
+#bt1{
+    border: 1px white;
+    color: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    display:inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+#bt1:hover{
+    background-color: white;
+    color: black;
+    transition: 0.6s;
+}
+.image{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.image img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
